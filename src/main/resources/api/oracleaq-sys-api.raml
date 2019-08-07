@@ -1,0 +1,71 @@
+#%RAML 1.0
+title: oracleaq connection sample API
+version: 1.0
+
+/users:
+
+  /authors:
+
+    description: This is used to get authors details
+
+    get:
+
+      responses: 
+
+        200:
+
+          body:
+
+            application/json:
+
+              example: |
+
+                {
+
+                "authorID":1,
+
+                "authorName":"Robert",
+
+                "DOB":"21/04/1986",
+
+                "Age":30
+
+                }  
+
+    post:
+
+      body: 
+
+        application/json:
+
+          example: |
+
+            {
+
+            "authorID":1,
+
+            "authorName":"Stephen",
+
+            "DOB":"21/04/1986",
+
+            "Age":30
+
+             } 
+
+      responses: 
+
+        201:
+
+          body: 
+
+            application/json:
+
+              example: |
+
+                {
+
+                "message":"Author updated {but not really"
+
+                }
+
+    
