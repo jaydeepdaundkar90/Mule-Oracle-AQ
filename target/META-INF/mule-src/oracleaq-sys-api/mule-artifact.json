@@ -1,0 +1,23 @@
+{
+ "configs": [
+   "config.xml"
+ ],
+ "secureProperties": [],
+ "redeploymentEnabled": true,
+ "name": "java-module",
+ "minMuleVersion": "4.2.0",
+ "requiredProduct": "MULE_EE",
+ "classLoaderModelLoaderDescriptor": {
+   "id": "mule",
+   "attributes": {
+     "exportedResources": [],
+     "exportedPackages":[
+       "com.connection.oracle.aq"
+     ]
+   }
+ },
+ "bundleDescriptorLoader": {
+   "id": "mule",
+   "attributes": {}
+ }
+}

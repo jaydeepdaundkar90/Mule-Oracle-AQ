@@ -1,0 +1,8 @@
+queueOwner='system'
+queueName = 'mule_test_que'
+DriverType = 'thin'
+ServerName = 'localhost'
+PortNumber = 1521
+DatabaseName = 'xe'
+User = 'system'
+Password ='system'
